@@ -1,4 +1,7 @@
 %%% SPM graph script %%%
+% Dependencies:
+%       SPM1D toolbox from SPM1D.org
+%
 % input variables:
 %       Y = time-series data registered to a length of 101
 %       A = categorical condition indicator as intergers
@@ -34,15 +37,15 @@
 % There must be an identical number of observations for each condition
 
 
-Title   = "ANOVA SPM of Hip Angles"
-Xlabel  = "% stride, initial contact to initial contact"
-Ylabel  = "Degree"
-Plabel  = ["C1 vs C2", "C1 vs C3", "C1 vs C4", "C1 vs C5", "C1 vs C6"]
-Param   = "param"   %choices: "param" or "nparam"
-Type    = "ANOVA"   %choices: "ttest" or "ANOVA"
-iters   = 200      %iterations used for non-param analysis
-alpha   = 0.05      %alpha of SPM analysis
-bon_f   = 1         %bonferoni correction of alpha (higher correction = lower alpha)
+Title   = "ANOVA SPM of Hip Angles";
+Xlabel  = "% stride, initial contact to initial contact";
+Ylabel  = "Degree";
+Plabel  = ["C1 vs C2", "C1 vs C3", "C1 vs C4", "C1 vs C5", "C1 vs C6"];
+Param   = "param";   %choices: "param" or "nparam"
+Type    = "ANOVA";   %choices: "ttest" or "ANOVA"
+iters   = 200;      %iterations used for non-param analysis
+alpha   = 0.05;      %alpha of SPM analysis
+bon_f   = 1;         %bonferoni correction of alpha (higher correction = lower alpha)
 
 
 SPM_graph_tool(Y, A, SubjYA, Title, Xlabel, Ylabel, Plabel, Param, Type, iters, alpha, bon_f)
