@@ -37,7 +37,7 @@
 % There must be an identical number of observations for each condition
 
 
-Title   = "ANOVA SPM of Hip Angles";
+Title   = "SPM ANOVA of Hip Angles";
 Xlabel  = "% stride, initial contact to initial contact";
 Ylabel  = "Degree";
 Plabel  = ["C1 vs C2", "C1 vs C3", "C1 vs C4", "C1 vs C5", "C1 vs C6"];
