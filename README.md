@@ -4,10 +4,11 @@ A basic function for creating nice looking SPM ttest and ANOVA analyses with pos
 ![SPM_ANOVA](https://github.com/MortenBP/SPM_graphs/assets/118117182/99f63859-e994-4fd0-a894-b3e9641684bb)
 
 ## Getting started
-Download this repository (click on green button 'Clone or download' on the right of the repository page)
-Start Matlab
-Open 'main.m' located in the root folder and follow the instructions within the file
+- Download this repository (click on green button 'Clone or download' on the right of the repository page)
+- Start Matlab
+- Open 'main.m' located in the root folder and follow the instructions within the file
 
 ## Prerequisites
 Download SPM1D toolbox: https://github.com/0todd0000/spm1d/
+
 Add the toolbox to your working path
