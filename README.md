@@ -1,9 +1,10 @@
 # SPM_graphs
 A basic function for creating nice looking SPM ttest and ANOVA analyses with post-hoc significance bars.
 
-![SPM_ttest](https://github.com/MortenBP/SPM_graphs/assets/118117182/7ba80b2d-bc25-4e63-9600-fd840c466de3)
+<img src="https://github.com/MortenBP/SPM_graphs/assets/118117182/7ba80b2d-bc25-4e63-9600-fd840c466de3" width="600" height="600" />
 
-![SPM_ANOVA](https://github.com/MortenBP/SPM_graphs/assets/118117182/99f63859-e994-4fd0-a894-b3e9641684bb)
+
+<img src="https://github.com/MortenBP/SPM_graphs/assets/118117182/99f63859-e994-4fd0-a894-b3e9641684bb" width="600" height="600" />
 
 ## Getting started
 - Download this repository (click on green button 'Clone or download' on the right of the repository page)
